@@ -21,7 +21,7 @@ pipeline {
             steps {
                 git credentialsId: 'github', 
                 url: 'https://github.com/YasserAhmedMoh/testt.git',
-                branch: 'test'
+                branch: 'main'
             }
         }
 
